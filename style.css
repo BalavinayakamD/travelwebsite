@@ -1,40 +1,138 @@
-.container {
-  background-color: white;
-  background-size: cover;
-}
-
-.quickpanel {
-  width: 100%;
-  height: 650px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgba(0, 0, 0, 0);
-  overflow: hidden;
+*{
   margin: 0%;
   padding: 0%;
 }
+
+.container {
+  background-color:rgb(243, 240, 237);
+  background-size: cover;
+}
+.quickpanel {
+  width: 100%;
+  height: 40vh;
+  border-style: solid;
+  border-width: 2px;;
+  border-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} 
 .randompage {
   width: 100%;
-  height: 650px;
+  height: 60vh;
   border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color: rgb(0, 0, 0);
   margin: 1px;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
 }
 .conclusion {
   width: 100%;
-  height: 400px;
+  height: 30vh;
   border-style: solid;
   border-width: 2px;
   border-color: black;
   margin: 1px;
 }
-.search {
-  height: 50px;
-  width: 200px;
-  border-color: bisque;
-  border-radius: 45%;
+.quickpanel > div{
+  width: 80vw;
+  height: 40px;
+  border-color: black;
+  border-style: ridge;
+  border-radius: 10px;
+}
+.sout{
+  margin-top: 1.8%;
+  display: inline-block;
+  margin-left: 10%;
+  width: 50%;
+  border-style:solid;
+  border-color: black;
+  border-radius: 25px;
+}
+#s{
+  padding: none;
+  border: none;
+  background: none;
+  font-weight: 400;
+  width: 90%;
+  border-radius: 25px;
+
+}
+#contact{
+  display: inline-block;
+  margin-left:30px;
+}
+.japan{
+  margin-top: 5%;
+  margin-left: 6%;
+  height: 70%;
+  width: 25%;
   border-style: solid;
-  border-width: 2px;
-  background-color: aqua;
+  border-width: 1px;
+  border-color: black;
+  display:inline-block;
+  overflow: auto;
+  font-size: 0;
+  background-image: url(res/yakushimajapan.jpg);
+  background-size: cover;
+}
+.india{
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 70%;
+  width: 25%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  display:inline-block;
+  background-image: url(res/places-to-visit-in-coorg\ \(1\).jpg);
+  overflow: auto;
+  font-size: 0%;
+}
+.singapore{
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 70%;
+  width: 25%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  display:inline-block;
+  background-image: url(res/night.jpg);
+  overflow: auto;
+  font-size: 0%;
+}
+.left{
+  height: 100%;
+  width: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  display:inline-block;
+}
+.right{
+    height: 100%;
+    width: 48%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    display:inline-block;   
+}
+.japan:hover{
+      background-color: antiquewhite;
+      font-size: 50%;
+}
+.india:hover{
+  background-color: aliceblue;
+  font-size: 50%;
+}
+.singapore:hover{
+  background-color: aliceblue;
+  font-size: 50%;
+  color: burlywood;
 }
