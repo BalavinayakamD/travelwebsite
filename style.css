@@ -1,24 +1,29 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
 }
 
 .container {
-  background-color:rgb(243, 240, 237);
+  background-color: rgb(217, 217, 190);
   background-size: cover;
 }
 .quickpanel {
   width: 100%;
   height: 40vh;
   border-style: solid;
-  border-width: 2px;;
+  border-width: 2px;
   border-color: rgba(0, 0, 0, 0);
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-} 
+  background-image: url(res/trafficgif.gif);
+}
+#heading {
+  font-size: 250%;
+  text-align: center;
+}
 .randompage {
   width: 100%;
   height: 60vh;
@@ -29,6 +34,9 @@
   justify-content: center;
   align-items: center;
   display: inline-block;
+  /* background-image: url(res/hotair.jpg); */
+  background-image: url(res/train.jpg);
+  background-size: cover;
 }
 .conclusion {
   width: 100%;
@@ -37,37 +45,50 @@
   border-width: 2px;
   border-color: black;
   margin: 1px;
+  background-image: url(res//coorg1.jpg);
 }
-.quickpanel > div{
+.quickpanel > div {
   width: 80vw;
   height: 40px;
-  border-color: black;
+  border-color: rgb(255, 255, 255);
   border-style: ridge;
   border-radius: 10px;
 }
-.sout{
-  margin-top: 1.8%;
+.sout {
+  margin-top: 0.5%;
   display: inline-block;
   margin-left: 10%;
   width: 50%;
-  border-style:solid;
-  border-color: black;
+  border-style: solid;
+  border-color: white;
   border-radius: 25px;
+  color: white;
 }
-#s{
+#s {
   padding: none;
   border: none;
   background: none;
   font-weight: 400;
   width: 90%;
   border-radius: 25px;
-
+  color: white;
 }
-#contact{
+#contact {
   display: inline-block;
-  margin-left:30px;
+  color: white;
+  margin-left: 26%;
+  text-decoration: none;
 }
-.japan{
+#contact:hover {
+  cursor: pointer;
+}
+#account:hover {
+  cursor: pointer;
+}
+#theme:hover {
+  cursor: pointer;
+}
+.japan {
   margin-top: 5%;
   margin-left: 6%;
   height: 70%;
@@ -75,13 +96,13 @@
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  display:inline-block;
+  display: inline-block;
   overflow: auto;
   font-size: 0;
-  background-image: url(res/yakushimajapan.jpg);
+  background-image: url(res/yakushima.jpg);
   background-size: cover;
 }
-.india{
+.india {
   margin-top: 5%;
   margin-left: 5%;
   height: 70%;
@@ -89,12 +110,13 @@
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  display:inline-block;
-  background-image: url(res/places-to-visit-in-coorg\ \(1\).jpg);
+  display: inline-block;
+  background-image: url(res/coorg1.jpg);
+  background-size: cover;
   overflow: auto;
   font-size: 0%;
 }
-.singapore{
+.singapore {
   margin-top: 5%;
   margin-left: 5%;
   height: 70%;
@@ -102,37 +124,72 @@
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  display:inline-block;
-  background-image: url(res/night.jpg);
+  display: inline-block;
+  background-image: url(res/singapore.jpg);
   overflow: auto;
+  background-size: cover;
   font-size: 0%;
 }
-.left{
-  height: 100%;
+.left {
+  height: 30vh;
   width: 50%;
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  display:inline-block;
+  display: inline-block;
+  position: absolute;
 }
-.right{
-    height: 100%;
-    width: 48%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    display:inline-block;   
+.right {
+  height: 30vh;
+  width: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  display: inline-block;
+  float: right;
 }
-.japan:hover{
-      background-color: antiquewhite;
-      font-size: 50%;
+.japan:hover {
+  font-size: 100%;
+  background-image: none;
 }
-.india:hover{
-  background-color: aliceblue;
-  font-size: 50%;
+.india:hover {
+  font-size: 100%;
+  background-image: none;
 }
-.singapore:hover{
-  background-color: aliceblue;
-  font-size: 50%;
-  color: burlywood;
+.singapore:hover {
+  background-image: none;
+  font-size: 100%;
+}
+.booking {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2%;
+  margin-left: 30%;
+  font-size: 200%;
+}
+#book {
+  outline: none;
+  background: none;
+  border-radius: 10px;
+}
+.booking:hover {
+  cursor: pointer;
+}
+.icons {
+  margin-top: 2%;
+  display: flex;
+  margin-right: 20px;
+}
+.abt {
+  margin-top: 1.5%;
+}
+#quick {
+  font-size: large;
+  outline: none;
+  background: none;
+  border: 0%;
+}
+.Relements {
+  margin-left: 30%;
+  line-height: 30px;
 }
