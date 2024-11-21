@@ -1,6 +1,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  zoom: 100%;
 }
 
 .container {
@@ -79,13 +80,10 @@
   margin-left: 26%;
   text-decoration: none;
 }
-#contact:hover {
-  cursor: pointer;
+#account{
+  text-decoration: none;
 }
-#account:hover {
-  cursor: pointer;
-}
-#theme:hover {
+#contact:hover,#theme:hover,#account:hover {
   cursor: pointer;
 }
 .japan {
@@ -148,17 +146,9 @@
   display: inline-block;
   float: right;
 }
-.japan:hover {
+.japan:hover,.singapore:hover,.india:hover {
   font-size: 100%;
   background-image: none;
-}
-.india:hover {
-  font-size: 100%;
-  background-image: none;
-}
-.singapore:hover {
-  background-image: none;
-  font-size: 100%;
 }
 .booking {
   display: flex;
